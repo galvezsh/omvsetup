@@ -38,21 +38,21 @@ It is intended for **Debian-based systems** and should be executed with **root p
 You can execute the script **directly from GitHub** without downloading it manually:
 
 ```bash
-wget -O - https://raw.githubusercontent.com/galvezsh/OpenMediaVault-Setup/master/configure.sh | bash
+wget -O - https://raw.githubusercontent.com/galvezsh/omvsetup/master/configure.sh | bash
 ```
 
 ---
 
 ## 📂 Step-by-step Actions
 
-1. Check root privileges
-Ensures the script is executed as the root user.
+**1. Check root privileges**
+- Ensures the script is executed as the root user.
 
-2. Update and upgrade the system
-Installs required packages and removes unnecessary ones.
+**2. Update and upgrade the system**
+- Installs required packages and removes unnecessary ones.
 
-3. Install Docker
-Sets up Docker's official repository and installs:
+**3. Install Docker**
+- Sets up Docker's official repository and installs:
 
 - docker-ce
 - docker-ce-cli
@@ -60,14 +60,14 @@ Sets up Docker's official repository and installs:
 - docker-buildx-plugin
 - docker-compose-plugin
 
-4. Install Fastfetch
-Fetches the latest release directly from GitHub and adds fastfetch to .bashrc.
+**4. Install Fastfetch**
+- Fetches the latest release directly from GitHub and adds fastfetch to .bashrc.
 
-5. Install OMV-Extras
-Executes the OMV-Extras installation script from GitHub.
+**5. Install OMV-Extras**
+- Executes the OMV-Extras installation script from GitHub.
 
-6. Custom tweaks
-Creates user groups Administradores and Usuarios.
+**6. Custom tweaks**
+- Creates user groups Administradores and Usuarios.
 
 
 ## 📝 Notes
